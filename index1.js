@@ -15,37 +15,37 @@ for(var i = 0; i<data.length; i++){
 function makeSound(key){
      switch(key){
           case "C":
-          var first = new Audio("sounds/tom-1.mp3");
+          var first = new Audio("tom-1.mp3");
           first.play();
           break;
      
           case "A":
-               var second = new Audio("sounds/tom-2.mp3");
+               var second = new Audio("tom-2.mp3");
                second.play();
                break;
      
           case "L":
-               var third = new Audio("sounds/tom-3.mp3");
+               var third = new Audio("tom-3.mp3");
                third.play();
                break;
      
           case "Y":
-               var fourth = new Audio("sounds/tom-4.mp3");
+               var fourth = new Audio("tom-4.mp3");
                fourth.play();
                break;
           
           case "P":
-               var fifth = new Audio("sounds/snare.mp3");
+               var fifth = new Audio("snare.mp3");
                fifth.play();
                break;
      
           case "S":
-          var sixth = new Audio("sounds/kick-bass.mp3");
+          var sixth = new Audio("kick-bass.mp3");
           sixth.play();
           break;
          
           case "O":
-               var seventh = new Audio("sounds/crash.mp3");
+               var seventh = new Audio("crash.mp3");
                seventh.play();
      
           }
